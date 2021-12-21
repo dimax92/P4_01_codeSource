@@ -6,9 +6,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.col-sm-4 ul li a{
-    color:#FFFFFF;
-}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -93,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img webp/texture-paper.webp");
+    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -649,14 +647,11 @@ h5,
 h6,
 p,
 label,
-.btn {
-    font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
-}
+.btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
+    color: #575757!important;
 }
 
 .container {
@@ -707,7 +702,6 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
-    color:#FFFFFF;
 }
 
 h2 {
@@ -777,17 +771,16 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #8F340A;
+    background-color: #F3976C;
 }
 
 .tc-white {
-    color: #FFFFFF!important;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
-    background: #93360B;
+    background: #F3976C;
     color: #FFFFFF!important;
-    cursor:pointer;
 }
 
 .btn-atomic-tangerine:hover {
@@ -817,19 +810,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img webp/dots-bg.webp");
+    background-image: url("img_webp/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img webp/lines-h2-bg.webp");
+    background-image: url("img_webp/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img webp/la-chouette-agence-banniere.webp");
+    background-image: url("img_webp/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img webp/image-de-presentation.webp");
+    background-image: url("img_webp/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
